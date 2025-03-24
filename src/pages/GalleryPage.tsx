@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -90,6 +89,7 @@ const GalleryPage = () => {
       src: "/Images/beauty salon22.jpg",
       alt: "Beauty Salon Image 1"
     },
+    
     
 
     
