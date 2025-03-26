@@ -1,5 +1,5 @@
-
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
@@ -31,9 +31,12 @@ const Hero = () => {
           Laser Skin Resurfacing
         </h1>
         <div className="w-24 h-0.5 bg-spa-gold mx-auto mb-8 animate-fade-in" />
-        <button className="btn-primary animate-fade-in-up">
+        <Link 
+          to="/booking"
+          className="btn-primary animate-fade-in-up"
+        >
           Book an Appointment
-        </button>
+        </Link>
       </div>
     </section>
   );

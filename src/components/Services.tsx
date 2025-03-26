@@ -20,13 +20,13 @@ const services = [
   },
   {
     icon: <Utensils size={32} className="text-spa-gold" />,
-    title: "Body Therapy",
+    title: "Head Therapy",
     description: "Full-body treatments to relax and rejuvenate"
   },
   {
     icon: <Flame size={32} className="text-spa-gold" />,
-    title: "Therapy",
-    description: "Holistic therapies for mental and physical wellness"
+    title: "Make Up",
+    description: "Make up for lookong attractive & wellness"
   }
 ];
 
@@ -90,7 +90,7 @@ const Services = () => {
         </div>
         
         <div className="mt-16 grid grid-cols-1 md:grid-cols-5 gap-4">
-          {['Facial Treatment', 'Hair Coloring', 'Make Up', 'Body Message', 'Nail Treatment'].map((item, index) => (
+          {['Facial Treatment', 'Hair Coloring', 'Make Up', 'Head Message', 'Nail Treatment'].map((item, index) => (
             <div 
               key={index}
               className="flex items-center space-x-2 py-2 px-4 bg-white rounded-lg hover:bg-spa-gold hover:text-white transition-all duration-300"

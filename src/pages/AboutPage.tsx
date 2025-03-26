@@ -45,7 +45,7 @@ const AboutPage = () => {
             <div className="space-y-6">
               <h3 className="text-2xl font-serif text-spa-dark">Our Journey</h3>
               <p className="text-spa-dark/80 leading-relaxed">
-                Founded in 2010, Royal Bridal Center began as a small wellness center with a vision to provide exceptional spa experiences that nurture both body and soul. Over the years, we've grown into a premier destination for those seeking relaxation and rejuvenation.
+                Founded in 2000, Royal Bridal Center began as a small wellness center with a vision to provide exceptional spa experiences that nurture both body and soul. Over the years, we've grown into a premier destination for those seeking relaxation and rejuvenation.
               </p>
               <p className="text-spa-dark/80 leading-relaxed">
                 Our philosophy is rooted in the belief that true beauty comes from balance and well-being. We combine ancient healing traditions with modern techniques to create treatments that address the unique needs of each client.

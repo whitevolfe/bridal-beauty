@@ -67,7 +67,7 @@ const BookingPage = () => {
     console.log(bookingData);
     
     const formDataToSend = new FormData();
-    formDataToSend.append("access_key", "86f65b27-f92b-47d4-b6cc-f5ef99d08646");
+    formDataToSend.append("access_key", "5732791f-19aa-4d4c-a2a5-5f70f79bd68b");
     formDataToSend.append("subject", `New Booking: ${bookingData.serviceName} by ${formData.firstName} ${formData.lastName}`);
     
     Object.entries(bookingData).forEach(([key, value]) => {
@@ -124,37 +124,21 @@ const BookingPage = () => {
       id: "facial",
       name: "Facial Treatments",
       description: "Rejuvenate your skin with our facial treatments",
-      price: "From $85",
       duration: "60 min"
     },
     {
       id: "massage",
-      name: "Massage Therapy",
+      name: "Head Massage & Treatment",
       description: "Relax your body and mind with our massage treatments",
-      price: "From $95",
       duration: "60 min"
     },
     {
       id: "aromatherapy",
-      name: "Aromatherapy",
+      name: "Hydra Facial",
       description: "Experience the healing benefits of essential oils",
-      price: "From $110",
       duration: "75 min"
     },
-    {
-      id: "hotstone",
-      name: "Hot Stone Therapy",
-      description: "Melt away stress with our hot stone therapy",
-      price: "From $120",
-      duration: "90 min"
-    },
-    {
-      id: "bodyscrub",
-      name: "Body Scrubs & Wraps",
-      description: "Exfoliate and nourish your skin",
-      price: "From $130",
-      duration: "90 min"
-    },
+    
     {
       id: "nailcare",
       name: "Nail Care",

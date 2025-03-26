@@ -51,37 +51,32 @@ const ServicesPage = () => {
                 title: "Facial Treatments",
                 description: "Rejuvenate your skin with our customized facials designed for your specific skin type and concerns.",
                 icon: "✨",
-                price: "From $85"
+              
               },
               {
-                title: "Body Massages",
+                title: "Head Massages",
                 description: "Release tension and promote relaxation with our therapeutic massage treatments.",
                 icon: "👐",
-                price: "From $95"
+                
               },
               {
-                title: "Aromatherapy",
+                title: "Hydra Facial",
                 description: "Experience the healing benefits of essential oils combined with massage therapy.",
                 icon: "🌿",
-                price: "From $110"
+                
               },
+              
               {
-                title: "Hot Stone Therapy",
-                description: "Melt away stress with smooth, heated stones placed on key points of your body.",
-                icon: "🪨",
-                price: "From $120"
-              },
-              {
-                title: "Body Scrubs & Wraps",
+                title: "Head Massage & Treatment",
                 description: "Exfoliate and nourish your skin for a smooth, glowing appearance.",
                 icon: "✨",
-                price: "From $130"
+              
               },
               {
                 title: "Nail Care",
                 description: "Pamper your hands and feet with our manicure and pedicure services.",
                 icon: "💅",
-                price: "From $45"
+              
               }
             ].map((service, index) => (
               <div key={index} className="bg-white p-8 rounded-lg shadow-md hover:shadow-lg transition-shadow">
