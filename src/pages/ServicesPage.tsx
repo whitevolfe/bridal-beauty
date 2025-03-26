@@ -83,7 +83,7 @@ const ServicesPage = () => {
                 <div className="text-4xl mb-4">{service.icon}</div>
                 <h3 className="text-xl font-serif text-spa-dark mb-2">{service.title}</h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>
-                <div className="text-spa-gold font-medium">{service.price}</div>
+                {/* <div className="text-spa-gold font-medium">{service.price}</div> */}
               </div>
             ))}
           </div>
