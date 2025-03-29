@@ -45,7 +45,7 @@ const Index = () => {
       <Services />
       <MassageTherapy />
       <BeautyCenter />
-      <Specialists />
+      {/* <Specialists /> */}
       {/* <Products /> */}
       <SpecialOffers />
       {/* <Appointment /> */}

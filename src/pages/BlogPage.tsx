@@ -30,14 +30,14 @@ const BlogPage = () => {
   }, []);
 
   const blogPosts = [
-    {
-      title: "The Benefits of Regular Massage Therapy",
-      excerpt: "Discover how regular massage therapy can improve your physical and mental wellbeing, reduce stress, and enhance your quality of life.",
-      date: "June 15, 2023",
-      author: "Emma Johnson",
-      category: "Wellness",
-      image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
-    },
+    // {
+    //   title: "The Benefits of Regular Massage Therapy",
+    //   excerpt: "Discover how regular massage therapy can improve your physical and mental wellbeing, reduce stress, and enhance your quality of life.",
+    //   date: "June 15, 2023",
+    //   author: "Emma Johnson",
+    //   category: "Wellness",
+    //   image: "https://images.unsplash.com/photo-1519823551278-64ac92734fb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+    // },
     
     {
       title: "The Power of Aromatherapy",
@@ -47,14 +47,14 @@ const BlogPage = () => {
       category: "Holistic",
       image: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
     },
-    {
-      title: "Mindfulness and facial Therapy",
-      excerpt: "Understand how combining mindfulness practices with beauty treatments can deepen relaxation and create lasting wellness benefits.",
-      date: "March 5, 2023",
-      author: "Olivia Martinez",
-      category: "Mindfulness",
-      image: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
-    },
+    // {
+    //   title: "Mindfulness and facial Therapy",
+    //   excerpt: "Understand how combining mindfulness practices with beauty treatments can deepen relaxation and create lasting wellness benefits.",
+    //   date: "March 5, 2023",
+    //   author: "Olivia Martinez",
+    //   category: "Mindfulness",
+    //   image: "https://images.unsplash.com/photo-1600334129128-685c5582fd35?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+    // },
     {
       title: "Natural Ingredients for Radiant Skin",
       excerpt: "Discover the power of natural ingredients that can transform your skin and how to incorporate them into your daily beauty routine.",
